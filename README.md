@@ -1,19 +1,11 @@
-# Ethereum Solidity Hardhat Template
+# FamilyTree
+## About
+Create a family tree with each family having many children with attribute like eth_address, name, home_address, age.
+
+![](./res/FamilyTree.png)
+
+## Implementation
 Ethereum + Solidity + Hardhat + Typechain
-
-Ethereum with Solidity contracts using Hardhat testing framework in TypeScript
-
-## Use
-- [Hardhat](https://github.com/nomiclabs/hardhat): compile and run the smart contracts on a local development network
-- [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript types for smart contracts
-- [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
-- [Waffle](https://github.com/EthWorks/Waffle): tooling for writing comprehensive smart contract tests
-- [Solhint](https://github.com/protofire/solhint): linter
-- [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
-
-This is a GitHub template, which means you can reuse it as many times as you want. You can do that by clicking the "Use this
-template" button at the top of the page.
-
 
 ## Setup
 ### 1. Environment variables
@@ -25,14 +17,7 @@ REPORT_GAS=<true_or_false>
 ```
 
 ### 2. Install the dependencies
-* Command:
-  - M-1: `$ npm install` (install all the packages listed inside `package.json`)
-  - M-2:`$ npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers hardhat-gas-reporter @openzeppelin/contracts typechain @typechain/ethers-v5 dotenv` 
-
-### 3. Start writing contracts
-* Contracts in the "contracts/" folder.
-* Deployment scripts in the "deployment/" folder.
-* Testing (locally) scripts in the "scripts/" folder.
+* `$ npm install` (install all the packages listed inside `package.json`)
 
 ## Usage
 
